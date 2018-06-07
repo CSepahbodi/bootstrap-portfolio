@@ -1,61 +1,75 @@
+<!--Starting with the template from bootstrap mainsite-->
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="../assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+    <head>
+
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <title>Cyrus Sepahbodi's Portfolio</title>
-  </head>
+   
+    </head>
 
-  <body>
-  
-    <nav>
-      
-      <ul class="nav justify-content-end">
+    <body>
+            <!--this is the navbar with inline styling to make my name match the color scheme and size-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border p-0">
+
+            <a class="navbar-brand p-3" style="background-color: teal; color: white;">Cyrus Sepahbodi</a>
+            <!--navbar justified and linked to external html files for the rest of the portfolio site-->
+            <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-4">                
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
         
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Cyrus Sepahbodi</a>
-          </li>
-        </ul>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="portfolio.html">My Portfolio</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+            </ul>
+        
+        </nav>
+<!--spaced the navbar and the container for the rest of the index content-->
+<br>
+<br>
+        <!--container for the about me photo and bio text-->
+        <div class="card card-body container">
 
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About Me</a>
-        </li>
+            <div class="row">
+                <!--used columns for responsiveness-->                
+                <form class="form-group col-sm-12">
+                    <h1 style="color: teal">About Me</h1>
+                    <br>
+                    <br>
+                    <!--floating the image left with image class from bootstrap-->
+                    <div class="float-left">
+                        <img src="images/794-01.jpeg" alt="Sloth" class="img-thumbnail mr-4">
+                    </div>
+                        <!--formatting the bio text-->
+                    <p class="card-text">You've swallowed a planet! I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. You hit me with a cricket bat. I am the last of my species, and I know how that weighs on the heart so don't lie to me! Saving the world with meals on wheels. You've swallowed a planet! Did I mention we have comfy chairs? All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? You've swallowed a planet! It's a fez. I wear a fez now. Fezes are cool. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.</p>
+                    <p>I am the Doctor, and you are the Daleks! Stop talking, brain thinking. Hush. Stop talking, brain thinking. Hush. I hate yogurt. It's just stuff with bits in. Father Christmas. Santa Claus. Or as I've always known him: Jeff. It's a fez. I wear a fez now. Fezes are cool.</p>            
+                </form>
 
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">My Portfolio</a>
-        </li>
-      
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Me</a>
-        </li>
+            </div>         
 
-      </ul>
+        </div>
 
-    </nav>
+<!--adding breakers for spacing the footer below the main content container-->
+<br>
+        <!--footer with copyright information-->
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            
+            <div class="container">
+                <div class="navbar-text col-lg-2 offset-lg-5">
+                    <p>Copyright © Cyrus Sepahbodi</p>
+                </div>
+            </div>
 
-    <div class="container-fluid">
+        </div>
 
-      <div class="container">
-
-        <h1>About Me</h1>
-          
-        <img src="images\794-01.jpeg" class="rounded float-left" alt="Cyrus Sepahbodi" width:300px; length:200px;>
-          
-        <p>Lorem ipsum dolor amet iceland meh hammock, vinyl glossier vape wayfarers. Mumblecore fingerstache leggings, tattooed franzen offal unicorn jean shorts celiac venmo readymade forage lo-fi shoreditch keffiyeh. Normcore organic chia vegan, lumbersexual leggings yr snackwave jean shorts cold-pressed taiyaki wolf moon gentrify. Drinking vinegar humblebrag fixie pickled flannel leggings, vexillologist selfies occupy live-edge master cleanse. Selvage hexagon sriracha church-key iPhone air plant. Shoreditch pabst try-hard iceland gochujang yr live-edge raclette. Viral copper mug wolf freegan. Shoreditch church-key paleo, direct trade polaroid everyday carry keytar. Bitters vape sustainable synth food truck bushwick mumblecore affogato gluten-free XOXO wolf brooklyn flexitarian. Seitan master cleanse cold-pressed, put a bird on it pork belly cardigan sartorial portland normcore.</p>
-
-      </div>
-
-    </div>
-
-    
-
-  </body>
+    </body>
 
 </html>

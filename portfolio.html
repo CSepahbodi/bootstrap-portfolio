@@ -1,44 +1,94 @@
+<!--same template start as the index, obtained from the bootstrap mainsite-->
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="../assets/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <title>Cyrus Sepahbodi's Portfolio</title>
-  </head>
+    <head>
 
-  <body>
-  
-    <nav>
-      
-      <ul class="nav justify-content-end">
-        
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Cyrus Sepahbodi</a>
-          </li>
-        </ul>
+        <meta charset="UTF-8" />
+        <title>Cyrus Sepahbodi's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    </head>
 
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About Me</a>
-        </li>
+    <body>
+        <!--same navbar as index page-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border p-0">
 
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">My Portfolio</a>
-        </li>
-      
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Me</a>
-        </li>
+            <a class="navbar-brand p-3" style="background-color: teal; color: white;">Cyrus Sepahbodi</a>
+    
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-4">                
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
 
-      </ul>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
 
-    </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
 
-  </body>
+        </nav>
+
+        <!--container for the portfolio content-->
+        <div class="container">
+            <!--content container for portfolio heading with inline style-->
+            <div class="card card-body col-sm-12 ">
+                <h2 style="color: teal">My Portfolio</h2>
+            </div>
+            <!--container for portfolio items spaced in two columns for responsiveness-->
+            <div class="card-columns row">
+
+            <div class="card col-md-5 p-0 m-3">
+                <img class="card-img-top" src="images/car.jpg" alt="Hangman Game">
+                <div class="card-body p-0">
+                    <h4 class="card-footer" style="background-color: teal; color: white; padding: 20px; margin:0px;">Deadman AKA Hangman</h4>
+                </div>
+            </div>
+
+            <div class="card col-md-5 p-0 m-3">
+                <img class="card-img-top" src="images/desk.jpg" alt="Role Playing Game">
+                <div class="card-body p-0">
+                    <h4 class="card-footer" style="background-color: teal; color: white; padding: 20px; margin:0px;">Level Up: RPG</h4>
+                </div>
+            </div>
+    
+            <div class="card col-md-5 p-0 m-3">
+                <img class="card-img-top" src="images/newyork.jpg" alt="Rock, Paper, Scissors">
+                <div class="card-body p-0">
+                    <h4 class="card-footer" style="background-color: teal; color: white; padding: 20px; margin:0px;">Choose Your Weapon: Rock, Paper, Scissors</h4>
+                </div>
+            </div>
+                            
+            <div class="card col-md-5 p-0 m-3">
+                <img class="card-img-top" src="images/taxi.jpg" alt="Rutgers Widget App">
+                <div class="card-body p-0">
+                    <h4 class="card-footer" style="background-color: teal; color: white; padding: 20px; margin:0px;">Making Paper: A Rutgers Widget</h4>
+                </div>
+            </div>
+
+            <div class="card col-md-5 p-0 m-3">
+                <img class="card-img-top" src="images/thelake.jpg" alt="Multiple Choice Questions">
+                <div class="card-body p-0">
+                    <h4 class="card-footer" style="background-color: teal; color: white; padding: 20px; margin:0px;">Wild Man Trivia</h4>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+        <!--same footer as index file-->
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+                <div class="navbar-text col-lg-2 offset-lg-5">
+                    <p>Copyright © Cyrus Sepahbodi</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
 
 </html>
