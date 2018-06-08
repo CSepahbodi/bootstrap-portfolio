@@ -1,11 +1,13 @@
 .thefoot {
     background-color: #666666;
     width: 100%;
-    height: 30px;
-    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .foottext {
     color: white;
     text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
